@@ -1,0 +1,236 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10%;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    font-size: 20px;
+
+}
+
+.head a {
+    color: white;
+}
+
+.navbar-nav a:hover {
+    color: #706868;
+}
+
+.inicio {
+    padding: 20px;
+    text-align: center;
+    background-color: hwb(0 0% 100%);
+    color:white;
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+}
+
+
+
+.politica {
+    padding: 20px;
+    text-align: center;
+    
+
+}
+
+.index h3  {
+    padding: 10px; 
+}
+
+.colu {
+    padding: 20px;
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    text-align: center;
+    background-color: hwb(0 0% 100%);
+    color: white;
+    
+}
+
+.bloque1 h3 {
+    text-align: center;
+    
+}
+
+.bloque2 h3 {
+    text-align: center;
+}
+
+.index ul li {
+    list-style: none;
+}
+.contacc {
+    padding: 20px;
+}
+
+.redes ul {
+    list-style-type:none;
+    text-decoration-style:solid;
+    text-align:right;
+    background-color: #171717;
+    padding: 20px;
+}
+
+.redes ul li{
+    display:inline-block;
+    margin-right:10px;
+    font-size:22px;
+} 
+
+
+/*procuto*/
+.pro {
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    padding: 100px;
+}
+
+main{
+    background: #666874;
+
+}
+.aba {
+    text-transform: uppercase;
+    padding: 100px;   
+}
+.container {
+    padding: 50px;
+    display: flex;
+
+}
+
+.producto {
+    background-color: #eae5e5;
+    width: 200px;
+    margin: 22px;
+}
+.producto img{
+
+    width: 200px;
+    height: 200px;
+}
+
+.producto button{
+    background: rgb(7, 7, 7);
+    padding: 4px 30px;
+    color: #ebe6e6;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.price {
+    padding: 5px;
+}
+
+.producto h2 {
+    padding: 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: black;
+}
+.producto p {
+    padding: 10px;
+    font-size: 10px;
+    color: black;
+}
+/*sale*/
+.sale4 {
+    text-align: center;
+}
+.sale {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sale1{
+    background-image: url(/imagenes/oferta/fondo.avif);
+    padding: 70px;
+    background-size: cover;
+}
+.sale1 h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.sale1 p {
+    font-size: 200px;
+}
+.sale1{
+    text-align: left;
+}
+.sale3 {
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color:rgb(202, 175, 175) ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s
+}
+.sale3:hover:hover {
+    background-color:black
+}
+button .sale3 {
+    margin-right: 7opx;
+}
+
+/*nosotros*/
+.nosotross {
+    padding: 100px;
+    height: 120vh;
+    background-image: url(/imagenes/fondos/fondo\ ns.jpg); 
+    background-size: cover;
+    
+    
+}
+.nosotross h2 {
+font-size: 70px;
+text-transform: uppercase;
+}
+
+/*contacto*/
+.contacto {
+    padding: 50px;
+    background: #d6c4c4;
+}
+
+
+/*media queries*/
+
+@media screen and (max-width:780px) {
+    .iniciocolum2 img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .container  {
+        display: block;
+    }
+    .producto {
+        display: inline-block;
+    }
+    
+}
+@media screen and (min-width:1020px) {
+    .aba {
+        display: flex;
+    }
+}
